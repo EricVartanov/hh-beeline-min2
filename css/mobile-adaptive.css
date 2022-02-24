@@ -1,0 +1,87 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        padding-top: 20px;
+        padding-bottom: 55px;
+    }
+    .idc-head .idc-logo {
+        width: 37.2vw;
+    }
+    .idc-head .idc-text {
+        margin-top: 20px;
+        width: 40.7vw;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .idc-info p > strong {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 110%;
+        color: #000000;
+    }
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 140%;
+        margin-top: 12px;
+        padding-left: 15px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 6px;
+        height: 6px;
+    }
+
+    /* *****footer*** */
+
+    .idc-footer .idc-footer-text {
+        width: 100%;
+    }
+    .idc-pluses-block {
+        margin-top: 10px;
+    }
+    .idc-pluse {
+        margin-top: 10px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .idc-pluse-icon {
+        /* width: 40px; */
+        /* height: 40px; */
+        width: 12.4vw;
+        height: 12.4vw;
+        margin-left: 0;
+    }
+    .idc-pluse-text {
+        /* font-size: 16px; */
+        /* line-height: 18px; */
+        font-size: 5vw;
+        line-height: 5.5vw;
+        max-width: unset;
+    }
+    .idc-ps {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 40px;
+    }
+}
